@@ -98,6 +98,7 @@ public class ApplicantController {
             pstm.setString(7, model.getWorkHistory());
             pstm.setString(7, model.getWorkHistory());
             pstm.setInt(8, pk);
+            pstm.setInt(8, pk);
             pstm.executeUpdate();
         }
     }
